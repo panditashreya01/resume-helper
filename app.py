@@ -16,8 +16,8 @@ load_dotenv()                      # .env when running locally
 client = OpenAI()                  # OPENAI_API_KEY picked up from env
 
 # ── Streamlit UI config ────────────────────────────────────────────────────
-st.set_page_config(page_title="Resume Bullet Doctor", page_icon="📄")
-st.title("📄 Resume Bullet Doctor")
+st.set_page_config(page_title="Resume Helper", page_icon="📄")
+st.title("📄 Resume Helper")
 
 # ── Master system prompt ───────────────────────────────────────────────────
 SYSTEM_PROMPT = """
